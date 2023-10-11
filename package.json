@@ -12,7 +12,7 @@
     "prettier:check": "prettier --check 'src/**/*.{ts,tsx,json}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts, tsx,json}'",
     "prepare": "husky install",
-    "test": "jest --verbose --watchAll"
+    "test": "jest"
   },
   "dependencies": {
     "@types/node": "20.6.0",
